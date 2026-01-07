@@ -26,31 +26,7 @@
   --radius: 0.75rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #020617;
-    /* Slate 950 */
-    --foreground: #f8fafc;
-    /* Slate 50 */
-
-    --primary: #3b82f6;
-    /* Blue 500 */
-    --primary-foreground: #ffffff;
-
-    --card: #0f172a;
-    /* Slate 900 */
-    --card-foreground: #f8fafc;
-
-    --muted: #1e293b;
-    /* Slate 800 */
-    --muted-foreground: #94a3b8;
-    /* Slate 400 */
-
-    --border: #1e293b;
-    /* Slate 800 */
-    --input: #1e293b;
-  }
-}
+/* Dark mode disabled - always use light theme */
 
 @theme inline {
   --color-background: var(--background);
